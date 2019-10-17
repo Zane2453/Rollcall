@@ -1,0 +1,22 @@
+button{
+    color: white;
+    width: 100%;
+    margin:1.5rem 0px 1.5rem 0px; 
+    font-size: 1.5rem!important;
+}
+body{
+    background-color: #f2f1f3;
+}
+.page_vertical_center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.element_vertical_center{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
