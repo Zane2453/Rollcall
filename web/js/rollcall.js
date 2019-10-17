@@ -43,12 +43,12 @@ $(document).ready(function(){
                 },
                 success: function(data){
                     setCookie("submit", encodeURIComponent(id), 30);
-                    //location.href = "https://aipoll.nctu.me";
+                    location.href = "https://aipoll.nctu.me";
                 }
             });
         }
         else{
-            console.log("fail");
+            location.href = "https://aipoll.nctu.me";
         }
     });
 });
