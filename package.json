@@ -13,7 +13,7 @@
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
-    "sequelize": "^4.41.2",
+    "sequelize": "^5.15.1",
     "socket.io": "^2.3.0",
     "sqlite3": "^4.0.6"
   }
